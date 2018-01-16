@@ -1,0 +1,217 @@
+INFO  @ Tue, 19 Dec 2017 21:33:59: 
+# Command line: callpeak -t /proj/sllstore2017067/project6/andre/datasets/sample1/sample1_andre_bw2_sorted.bed -c /proj/sllstore2017067/project6/andre/datasets/control/control_andre_bw2_sorted.bed -f BED
+# ARGUMENTS LIST:
+# name = NA
+# format = BED
+# ChIP-seq file = ['/proj/sllstore2017067/project6/andre/datasets/sample1/sample1_andre_bw2_sorted.bed']
+# control file = ['/proj/sllstore2017067/project6/andre/datasets/control/control_andre_bw2_sorted.bed']
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+ 
+INFO  @ Tue, 19 Dec 2017 21:33:59: #1 read tag files... 
+INFO  @ Tue, 19 Dec 2017 21:33:59: #1 read treatment tags... 
+INFO  @ Tue, 19 Dec 2017 21:34:01:  1000000 
+INFO  @ Tue, 19 Dec 2017 21:34:02:  2000000 
+INFO  @ Tue, 19 Dec 2017 21:34:03:  3000000 
+INFO  @ Tue, 19 Dec 2017 21:34:04:  4000000 
+INFO  @ Tue, 19 Dec 2017 21:34:05:  5000000 
+INFO  @ Tue, 19 Dec 2017 21:34:07:  6000000 
+INFO  @ Tue, 19 Dec 2017 21:34:08:  7000000 
+INFO  @ Tue, 19 Dec 2017 21:34:09:  8000000 
+INFO  @ Tue, 19 Dec 2017 21:34:10:  9000000 
+INFO  @ Tue, 19 Dec 2017 21:34:11:  10000000 
+INFO  @ Tue, 19 Dec 2017 21:34:13:  11000000 
+INFO  @ Tue, 19 Dec 2017 21:34:14:  12000000 
+INFO  @ Tue, 19 Dec 2017 21:34:15:  13000000 
+INFO  @ Tue, 19 Dec 2017 21:34:16:  14000000 
+INFO  @ Tue, 19 Dec 2017 21:34:17:  15000000 
+INFO  @ Tue, 19 Dec 2017 21:34:19:  16000000 
+INFO  @ Tue, 19 Dec 2017 21:34:20:  17000000 
+INFO  @ Tue, 19 Dec 2017 21:34:21:  18000000 
+INFO  @ Tue, 19 Dec 2017 21:34:22:  19000000 
+INFO  @ Tue, 19 Dec 2017 21:34:23:  20000000 
+INFO  @ Tue, 19 Dec 2017 21:34:25:  21000000 
+INFO  @ Tue, 19 Dec 2017 21:34:26:  22000000 
+INFO  @ Tue, 19 Dec 2017 21:34:27:  23000000 
+INFO  @ Tue, 19 Dec 2017 21:34:28:  24000000 
+INFO  @ Tue, 19 Dec 2017 21:34:30:  25000000 
+INFO  @ Tue, 19 Dec 2017 21:34:31:  26000000 
+INFO  @ Tue, 19 Dec 2017 21:34:32:  27000000 
+INFO  @ Tue, 19 Dec 2017 21:34:33:  28000000 
+INFO  @ Tue, 19 Dec 2017 21:34:34:  29000000 
+INFO  @ Tue, 19 Dec 2017 21:34:35:  30000000 
+INFO  @ Tue, 19 Dec 2017 21:34:36:  31000000 
+INFO  @ Tue, 19 Dec 2017 21:34:37:  32000000 
+INFO  @ Tue, 19 Dec 2017 21:34:38:  33000000 
+INFO  @ Tue, 19 Dec 2017 21:34:39:  34000000 
+INFO  @ Tue, 19 Dec 2017 21:34:40:  35000000 
+INFO  @ Tue, 19 Dec 2017 21:34:42:  36000000 
+INFO  @ Tue, 19 Dec 2017 21:34:43:  37000000 
+INFO  @ Tue, 19 Dec 2017 21:34:44:  38000000 
+INFO  @ Tue, 19 Dec 2017 21:34:45:  39000000 
+INFO  @ Tue, 19 Dec 2017 21:34:47:  40000000 
+INFO  @ Tue, 19 Dec 2017 21:34:48:  41000000 
+INFO  @ Tue, 19 Dec 2017 21:34:49:  42000000 
+INFO  @ Tue, 19 Dec 2017 21:34:50:  43000000 
+INFO  @ Tue, 19 Dec 2017 21:34:51:  44000000 
+INFO  @ Tue, 19 Dec 2017 21:34:52:  45000000 
+INFO  @ Tue, 19 Dec 2017 21:34:53:  46000000 
+INFO  @ Tue, 19 Dec 2017 21:34:54:  47000000 
+INFO  @ Tue, 19 Dec 2017 21:34:55:  48000000 
+INFO  @ Tue, 19 Dec 2017 21:34:56:  49000000 
+INFO  @ Tue, 19 Dec 2017 21:34:57:  50000000 
+INFO  @ Tue, 19 Dec 2017 21:34:58:  51000000 
+INFO  @ Tue, 19 Dec 2017 21:34:59:  52000000 
+INFO  @ Tue, 19 Dec 2017 21:35:00:  53000000 
+INFO  @ Tue, 19 Dec 2017 21:35:01:  54000000 
+INFO  @ Tue, 19 Dec 2017 21:35:02:  55000000 
+INFO  @ Tue, 19 Dec 2017 21:35:03:  56000000 
+INFO  @ Tue, 19 Dec 2017 21:35:05:  57000000 
+INFO  @ Tue, 19 Dec 2017 21:35:06:  58000000 
+INFO  @ Tue, 19 Dec 2017 21:35:07:  59000000 
+INFO  @ Tue, 19 Dec 2017 21:35:08:  60000000 
+INFO  @ Tue, 19 Dec 2017 21:35:09:  61000000 
+INFO  @ Tue, 19 Dec 2017 21:35:10:  62000000 
+INFO  @ Tue, 19 Dec 2017 21:35:11:  63000000 
+INFO  @ Tue, 19 Dec 2017 21:35:12:  64000000 
+INFO  @ Tue, 19 Dec 2017 21:35:13:  65000000 
+INFO  @ Tue, 19 Dec 2017 21:35:14:  66000000 
+INFO  @ Tue, 19 Dec 2017 21:35:15:  67000000 
+INFO  @ Tue, 19 Dec 2017 21:35:16:  68000000 
+INFO  @ Tue, 19 Dec 2017 21:35:17:  69000000 
+INFO  @ Tue, 19 Dec 2017 21:35:18:  70000000 
+INFO  @ Tue, 19 Dec 2017 21:35:19:  71000000 
+INFO  @ Tue, 19 Dec 2017 21:35:20:  72000000 
+INFO  @ Tue, 19 Dec 2017 21:35:21:  73000000 
+INFO  @ Tue, 19 Dec 2017 21:35:22:  74000000 
+INFO  @ Tue, 19 Dec 2017 21:35:23:  75000000 
+INFO  @ Tue, 19 Dec 2017 21:35:25:  76000000 
+INFO  @ Tue, 19 Dec 2017 21:35:26:  77000000 
+INFO  @ Tue, 19 Dec 2017 21:35:27:  78000000 
+INFO  @ Tue, 19 Dec 2017 21:35:28:  79000000 
+INFO  @ Tue, 19 Dec 2017 21:35:29:  80000000 
+INFO  @ Tue, 19 Dec 2017 21:35:30:  81000000 
+INFO  @ Tue, 19 Dec 2017 21:35:31:  82000000 
+INFO  @ Tue, 19 Dec 2017 21:35:33: #1.2 read input tags... 
+INFO  @ Tue, 19 Dec 2017 21:35:35:  1000000 
+INFO  @ Tue, 19 Dec 2017 21:35:36:  2000000 
+INFO  @ Tue, 19 Dec 2017 21:35:37:  3000000 
+INFO  @ Tue, 19 Dec 2017 21:35:38:  4000000 
+INFO  @ Tue, 19 Dec 2017 21:35:40:  5000000 
+INFO  @ Tue, 19 Dec 2017 21:35:41:  6000000 
+INFO  @ Tue, 19 Dec 2017 21:35:42:  7000000 
+INFO  @ Tue, 19 Dec 2017 21:35:43:  8000000 
+INFO  @ Tue, 19 Dec 2017 21:35:45:  9000000 
+INFO  @ Tue, 19 Dec 2017 21:35:46:  10000000 
+INFO  @ Tue, 19 Dec 2017 21:35:47:  11000000 
+INFO  @ Tue, 19 Dec 2017 21:35:48:  12000000 
+INFO  @ Tue, 19 Dec 2017 21:35:49:  13000000 
+INFO  @ Tue, 19 Dec 2017 21:35:51:  14000000 
+INFO  @ Tue, 19 Dec 2017 21:35:52:  15000000 
+INFO  @ Tue, 19 Dec 2017 21:35:53:  16000000 
+INFO  @ Tue, 19 Dec 2017 21:35:54:  17000000 
+INFO  @ Tue, 19 Dec 2017 21:35:56:  18000000 
+INFO  @ Tue, 19 Dec 2017 21:35:57:  19000000 
+INFO  @ Tue, 19 Dec 2017 21:35:58:  20000000 
+INFO  @ Tue, 19 Dec 2017 21:35:59:  21000000 
+INFO  @ Tue, 19 Dec 2017 21:36:00:  22000000 
+INFO  @ Tue, 19 Dec 2017 21:36:02:  23000000 
+INFO  @ Tue, 19 Dec 2017 21:36:03:  24000000 
+INFO  @ Tue, 19 Dec 2017 21:36:04:  25000000 
+INFO  @ Tue, 19 Dec 2017 21:36:05:  26000000 
+INFO  @ Tue, 19 Dec 2017 21:36:07:  27000000 
+INFO  @ Tue, 19 Dec 2017 21:36:08:  28000000 
+INFO  @ Tue, 19 Dec 2017 21:36:09:  29000000 
+INFO  @ Tue, 19 Dec 2017 21:36:10:  30000000 
+INFO  @ Tue, 19 Dec 2017 21:36:11:  31000000 
+INFO  @ Tue, 19 Dec 2017 21:36:12:  32000000 
+INFO  @ Tue, 19 Dec 2017 21:36:13:  33000000 
+INFO  @ Tue, 19 Dec 2017 21:36:14:  34000000 
+INFO  @ Tue, 19 Dec 2017 21:36:15:  35000000 
+INFO  @ Tue, 19 Dec 2017 21:36:16:  36000000 
+INFO  @ Tue, 19 Dec 2017 21:36:17:  37000000 
+INFO  @ Tue, 19 Dec 2017 21:36:19:  38000000 
+INFO  @ Tue, 19 Dec 2017 21:36:20:  39000000 
+INFO  @ Tue, 19 Dec 2017 21:36:21:  40000000 
+INFO  @ Tue, 19 Dec 2017 21:36:22:  41000000 
+INFO  @ Tue, 19 Dec 2017 21:36:23:  42000000 
+INFO  @ Tue, 19 Dec 2017 21:36:25:  43000000 
+INFO  @ Tue, 19 Dec 2017 21:36:26:  44000000 
+INFO  @ Tue, 19 Dec 2017 21:36:27:  45000000 
+INFO  @ Tue, 19 Dec 2017 21:36:28:  46000000 
+INFO  @ Tue, 19 Dec 2017 21:36:29:  47000000 
+INFO  @ Tue, 19 Dec 2017 21:36:30:  48000000 
+INFO  @ Tue, 19 Dec 2017 21:36:31:  49000000 
+INFO  @ Tue, 19 Dec 2017 21:36:32:  50000000 
+INFO  @ Tue, 19 Dec 2017 21:36:33:  51000000 
+INFO  @ Tue, 19 Dec 2017 21:36:34:  52000000 
+INFO  @ Tue, 19 Dec 2017 21:36:35:  53000000 
+INFO  @ Tue, 19 Dec 2017 21:36:36:  54000000 
+INFO  @ Tue, 19 Dec 2017 21:36:37:  55000000 
+INFO  @ Tue, 19 Dec 2017 21:36:38:  56000000 
+INFO  @ Tue, 19 Dec 2017 21:36:39:  57000000 
+INFO  @ Tue, 19 Dec 2017 21:36:41:  58000000 
+INFO  @ Tue, 19 Dec 2017 21:36:42:  59000000 
+INFO  @ Tue, 19 Dec 2017 21:36:43:  60000000 
+INFO  @ Tue, 19 Dec 2017 21:36:44:  61000000 
+INFO  @ Tue, 19 Dec 2017 21:36:45:  62000000 
+INFO  @ Tue, 19 Dec 2017 21:36:46:  63000000 
+INFO  @ Tue, 19 Dec 2017 21:36:47:  64000000 
+INFO  @ Tue, 19 Dec 2017 21:36:48:  65000000 
+INFO  @ Tue, 19 Dec 2017 21:36:49:  66000000 
+INFO  @ Tue, 19 Dec 2017 21:36:50:  67000000 
+INFO  @ Tue, 19 Dec 2017 21:36:51:  68000000 
+INFO  @ Tue, 19 Dec 2017 21:36:52:  69000000 
+INFO  @ Tue, 19 Dec 2017 21:36:53:  70000000 
+INFO  @ Tue, 19 Dec 2017 21:36:54:  71000000 
+INFO  @ Tue, 19 Dec 2017 21:36:55:  72000000 
+INFO  @ Tue, 19 Dec 2017 21:36:56:  73000000 
+INFO  @ Tue, 19 Dec 2017 21:36:57:  74000000 
+INFO  @ Tue, 19 Dec 2017 21:36:58:  75000000 
+INFO  @ Tue, 19 Dec 2017 21:36:59:  76000000 
+INFO  @ Tue, 19 Dec 2017 21:37:00:  77000000 
+INFO  @ Tue, 19 Dec 2017 21:37:01:  78000000 
+INFO  @ Tue, 19 Dec 2017 21:37:03:  79000000 
+INFO  @ Tue, 19 Dec 2017 21:37:04:  80000000 
+INFO  @ Tue, 19 Dec 2017 21:37:05:  81000000 
+INFO  @ Tue, 19 Dec 2017 21:37:06:  82000000 
+INFO  @ Tue, 19 Dec 2017 21:37:07:  83000000 
+INFO  @ Tue, 19 Dec 2017 21:37:08:  84000000 
+INFO  @ Tue, 19 Dec 2017 21:37:09:  85000000 
+INFO  @ Tue, 19 Dec 2017 21:37:10:  86000000 
+INFO  @ Tue, 19 Dec 2017 21:37:11:  87000000 
+INFO  @ Tue, 19 Dec 2017 21:37:12:  88000000 
+INFO  @ Tue, 19 Dec 2017 21:37:14: #1 tag size is determined as 50 bps 
+INFO  @ Tue, 19 Dec 2017 21:37:14: #1 tag size = 50 
+INFO  @ Tue, 19 Dec 2017 21:37:14: #1  total tags in treatment: 82476276 
+INFO  @ Tue, 19 Dec 2017 21:37:14: #1 user defined the maximum tags... 
+INFO  @ Tue, 19 Dec 2017 21:37:14: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Tue, 19 Dec 2017 21:37:24: #1  tags after filtering in treatment: 77782148 
+INFO  @ Tue, 19 Dec 2017 21:37:24: #1  Redundant rate of treatment: 0.06 
+INFO  @ Tue, 19 Dec 2017 21:37:24: #1  total tags in control: 88015576 
+INFO  @ Tue, 19 Dec 2017 21:37:24: #1 user defined the maximum tags... 
+INFO  @ Tue, 19 Dec 2017 21:37:24: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Tue, 19 Dec 2017 21:37:36: #1  tags after filtering in control: 82819024 
+INFO  @ Tue, 19 Dec 2017 21:37:36: #1  Redundant rate of control: 0.06 
+INFO  @ Tue, 19 Dec 2017 21:37:36: #1 finished! 
+INFO  @ Tue, 19 Dec 2017 21:37:36: #2 Build Peak Model... 
+INFO  @ Tue, 19 Dec 2017 21:37:49: #2 number of paired peaks: 24307 
+INFO  @ Tue, 19 Dec 2017 21:37:49: start model_add_line... 
+INFO  @ Tue, 19 Dec 2017 21:38:15: start X-correlation... 
+INFO  @ Tue, 19 Dec 2017 21:38:15: end of X-cor 
+INFO  @ Tue, 19 Dec 2017 21:38:15: #2 finished! 
+INFO  @ Tue, 19 Dec 2017 21:38:15: #2 predicted fragment length is 121 bps 
+INFO  @ Tue, 19 Dec 2017 21:38:15: #2 alternative fragment length(s) may be 121 bps 
+INFO  @ Tue, 19 Dec 2017 21:38:15: #2.2 Generate R script for model : NA_model.r 
+INFO  @ Tue, 19 Dec 2017 21:38:15: #3 Call peaks... 
+INFO  @ Tue, 19 Dec 2017 21:38:15: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Tue, 19 Dec 2017 21:52:11: #3 Call peaks for each chromosome... 
+INFO  @ Tue, 19 Dec 2017 22:02:47: #4 Write output xls file... NA_peaks.xls 
+INFO  @ Tue, 19 Dec 2017 22:02:47: #4 Write peak in narrowPeak format file... NA_peaks.narrowPeak 
+INFO  @ Tue, 19 Dec 2017 22:02:47: #4 Write summits bed file... NA_summits.bed 
+INFO  @ Tue, 19 Dec 2017 22:02:47: Done! 

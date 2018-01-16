@@ -1,0 +1,79 @@
+This is cutadapt 1.9.1 with Python 2.7.6
+Command line parameters: -a GATCGGAAGAGCACACGTCTGAACTCCAGTCACGTGAAACGATCTCGTAT -o /proj/sllstore2017067/project6/andre/datasets/control/control_trimmed.fastq /proj/sllstore2017067/project6/andre/datasets/control/control.fastq
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 1014.60 s (10 us/read; 5.72 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              96,694,548
+Reads with adapters:                 6,224,149 (6.4%)
+Reads written (passing filters):    96,694,548 (100.0%)
+
+Total basepairs processed: 4,834,727,400 bp
+Total written (filtered):  4,595,553,028 bp (95.1%)
+
+=== Adapter 1 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACGTGAAACGATCTCGTAT; Type: regular 3'; Length: 50; Trimmed: 6224149 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50 bp: 5
+
+Bases preceding removed adapters:
+  A: 8.9%
+  C: 1.5%
+  G: 6.1%
+  T: 8.5%
+  none/other: 74.9%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1249810	1510852.3	0	1249810
+4	248668	377713.1	0	248668
+5	15385	94428.3	0	15385
+6	2619	23607.1	0	2619
+7	942	5901.8	0	942
+8	554	1475.4	0	554
+9	1371	368.9	0	360 1011
+10	1799	92.2	1	298 1501
+11	673	23.1	1	181 492
+12	267	5.8	1	154 113
+13	207	1.4	1	159 48
+14	114	0.4	1	97 17
+15	84	0.1	1	71 13
+16	111	0.0	1	100 11
+17	1582	0.0	1	1431 151
+18	522	0.0	1	496 26
+19	521	0.0	1	476 42 3
+20	15385	0.0	2	14371 877 137
+21	1350	0.0	2	1275 62 13
+22	2047	0.0	2	1784 197 66
+23	353	0.0	2	323 24 6
+24	241	0.0	2	223 15 3
+25	118	0.0	2	107 7 4
+26	74	0.0	2	66 7 1
+27	144	0.0	2	133 9 2
+28	489	0.0	2	431 34 23 1
+29	86	0.0	2	78 7 1
+30	332	0.0	3	303 18 7 4
+31	359	0.0	3	333 20 4 2
+32	147	0.0	3	131 12 3 1
+33	107	0.0	3	98 9
+34	202	0.0	3	170 16 9 7
+35	402	0.0	3	354 38 6 4
+36	240	0.0	3	215 15 7 3
+37	3532	0.0	3	3117 300 70 38 7
+38	791	0.0	3	717 63 8 3
+39	163	0.0	3	144 16 1 2
+40	1417	0.0	4	1260 113 22 13 9
+41	220	0.0	4	201 13 5 1
+42	673	0.0	4	594 58 17 2 2
+43	275	0.0	4	244 22 8 1
+44	55	0.0	4	48 7
+45	189	0.0	4	171 13 4 1
+46	106	0.0	4	93 7 4 1 1
+47	88	0.0	4	63 9 7 4 0 5
+48	365	0.0	4	23 7 32 109 114 80
+49	5527	0.0	4	2695 1988 425 137 132 150
+50	4663443	0.0	5	3479487 603440 202783 131787 120152 125794
+

@@ -1,0 +1,47 @@
+This is cutadapt 1.9.1 with Python 2.7.6
+Command line parameters: -g GATCGGAAGAGCACACGTCTGAACTCCAGTCACGTGAAACGATCTCGTAT -o /proj/sllstore2017067/project6/andre/datasets/control/control_trimmed_new.fastq /proj/sllstore2017067/project6/andre/datasets/control/control.fastq
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 1376.62 s (14 us/read; 4.21 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              96,694,548
+Reads with adapters:                 6,465,056 (6.7%)
+Reads written (passing filters):    96,694,548 (100.0%)
+
+Total basepairs processed: 4,834,727,400 bp
+Total written (filtered):  4,595,755,151 bp (95.1%)
+
+=== Adapter 1 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACGTGAAACGATCTCGTAT; Type: regular 5'; Length: 50; Trimmed: 6465056 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50 bp: 5
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1486620	1510852.3	0	1486620
+4	289848	377713.1	0	289848
+5	13151	94428.3	0	13151
+6	3155	23607.1	0	3155
+7	751	5901.8	0	751
+8	178	1475.4	0	178
+9	700	368.9	0	47 653
+10	517	92.2	1	6 511
+11	197	23.1	1	1 196
+12	32	5.8	1	0 32
+13	4	1.4	1	0 4
+14	3	0.4	1	0 3
+15	1	0.1	1	0 1
+39	1	0.0	3	0 1
+41	2	0.0	4	0 1 1
+43	3	0.0	4	0 1 0 1 1
+44	9	0.0	4	1 3 3 1 1
+45	1209	0.0	4	841 131 32 5 3 197
+46	2403	0.0	4	852 155 30 12 322 1032
+47	6356	0.0	4	4042 663 131 361 347 812
+48	59800	0.0	4	264 122 3875 7567 17140 30832
+49	93020	0.0	4	5194 32508 14537 13119 13486 14176
+50	4507096	0.0	5	3479487 547878 203881 109167 87828 78855
+
