@@ -12,6 +12,8 @@ fastqc -o /proj/sllstore2017067/project6/andre/datasets/control/trimmed /proj/sl
 #module add cutadapt
 #cutadapt -g GATCGGAAGAGCACACGTCTGAACTCCAGTCACGTGAAACGATCTCGTAT -o /proj/sllstore2017067/project6/andre/datasets/control/control_trimmed_new.fastq /proj/sllstore2017067/project6/andre/datasets/control/control.fastq
 
+#PASTE COMMAND TO DONWLOAD GENOME HERE!!
+
 module add bowtie2
 
 #ALIGNS READS TO INDEXED REFERENCE GENOME
